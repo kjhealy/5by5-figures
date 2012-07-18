@@ -2,7 +2,9 @@ library(ggplot2)
 library(Hmisc)
 library(MASS)
 
+### --------------------------------------------------
 ### Cosmetics
+### --------------------------------------------------
 makeFootnote <- function(footnoteText=
                          format(Sys.time(), "%d %b %Y"),
                          size= .7, color= grey(.5))
@@ -22,7 +24,7 @@ credit <- function() {
 }
 
 ### --------------------------------------------------
-### Hypercritical Only
+### Hypercritical
 ### --------------------------------------------------
 data <- read.csv("data/Hypercritical.csv", header=TRUE)
 library(gdata)
