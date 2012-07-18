@@ -1,3 +1,12 @@
+### --------------------------------------------------
+### 5by5 Figures
+### --------------------------------------------------
+
+### Data and R code for two blog posts on 5by5 show length:
+### http://www.kieranhealy.org/blog/archives/2012/07/13/trying-to-rein-it-in/
+### http://www.kieranhealy.org/blog/archives/2012/07/17/talk-radio/
+### The version here includes an additional show, The Incomparable.
+
 library(ggplot2)
 library(Hmisc)
 library(MASS)
